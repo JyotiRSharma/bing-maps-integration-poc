@@ -1,5 +1,5 @@
 # bing-maps-integration-poc
-A POC to integrate bing maps routing
+A React POC to integrate bing maps routing
 
 ## Installation:
 ```git clone https://github.com/JyotiRSharma/bing-maps-integration-poc```
