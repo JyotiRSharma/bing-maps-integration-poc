@@ -9,3 +9,6 @@ Doesn't require npm as all files are downloaded from respective CDNs.
 Paste your bing maps API key in the bing api script to access bing maps:
 
 ```<script src='https://www.bing.com/api/maps/mapcontrol?key=__BingAPIKEY__&callback=loadMapScenario'></script>```
+
+## More customizations
+Use Bing maps [official docs](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk/directionscreatetruckroute#HTML) to add more features to your maps
