@@ -11,4 +11,16 @@ Paste your bing maps API key in the bing api script to access bing maps:
 ```<script src='https://www.bing.com/api/maps/mapcontrol?key=__BingAPIKEY__&callback=loadMapScenario'></script>```
 
 ## More customizations
-Use Bing maps [official docs](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk/directionscreatetruckroute#HTML) to add more features to your maps
+Use Bing maps [official docs](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk/directionscreatetruckroute#HTML) to add more features to your maps.
+
+## Contribution Guidelines
+Whenever working on a new feature
+- Please pull dev branchto have latest stable code
+- Create a new ```feature-branch```
+- Aftter feature is completed and dev tested
+- Perform rebase from dev branch
+```git rebase dev```
+- Raise a PR to dev branch and fix conflicts if any via
+```git pull origin dev```
+- After PR is approved it will be merged into dev
+
